@@ -16,10 +16,10 @@ The application is composed of **three independent, asynchronous processes**. Ea
 
 ```mermaid
 flowchart LR
-    FPE["Front Panel Emulator"] -- "requested position" --> DM["Device Manager"]
-    DM -- "requested position" --> SME["Servo Motor Emulator"]
-    SME -- "temperature + humidity" --> DM
-    DM -- "temperature + humidity" --> FPE
+    FPE[Front Panel Emulator] -->|requested position| DM[Device Manager]
+    DM -->|requested position| SME[Servo Motor Emulator]
+    SME -->|temperature and humidity| DM
+    DM -->|temperature and humidity| FPE
 ```
 
 | Process | Role |
@@ -36,7 +36,7 @@ This three-process shape is the one architectural requirement every implementati
 
 A front panel that emulates a physical servo motor, including basic telemetry.
 
-![Servo Motor Emulator front panel, showing a Position dial from 0 to 180, with Temperature and RH numeric controls above it](./images/servo-motor-emulator.png)
+![Servo Motor Emulator front panel, showing a Position dial from 0 to 180, with Temperature and RH numeric controls above it](./servo-motor-emulator.png)
 
 **Must have:**
 - A **dial indicator**, labeled "Position," displaying the current requested position on a **0 to 180** scale
@@ -56,7 +56,7 @@ Whatever value is currently set in these two controls is what the Servo Motor Em
 
 A front panel that emulates the panel an operator would interact with.
 
-![Front Panel Emulator front panel, showing an LCD-style string indicator with Position, Temp, and RH, above a Position knob from -180 to 180](./images/front-panel-emulator.png)
+![Front Panel Emulator front panel, showing an LCD-style string indicator with Position, Temp, and RH, above a Position knob from 0 to 180](./front-panel-emulator.png)
 
 **Must have:**
 - A **knob control**, labeled "Position," the user turns to request a position for the servo motor, on the same **0 to 180** scale as the Servo Motor Emulator's dial
