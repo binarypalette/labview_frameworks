@@ -64,14 +64,23 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 	</Item>
-	<Item Name="Report Temperature and Humidity.vi" Type="VI" URL="../Report Temperature and Humidity.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;R!=!!?!!!Z'E:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW&lt;'FC(%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW9WRB=X-!'%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!01!I!#%BV&lt;7FE;82Z!!!21!I!#V2F&lt;8"F=G&amp;U&gt;8*F!&amp;J!=!!?!!!Z'E:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW&lt;'FC(%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW9WRB=X-!&amp;U:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!%!!!!"!!!!#3!!!!!!%!#A!!!!!</Property>
+	<Item Name="Report Humidity.vi" Type="VI" URL="../Report Humidity.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;R!=!!?!!!Z'E:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW&lt;'FC(%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW9WRB=X-!'%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!01!I!#%BV&lt;7FE;82Z!!";1(!!(A!!/2J'=G^O&gt;#"197ZF&lt;#"&amp;&lt;86M982P=CZM&gt;GRJ9BR'=G^O&gt;#"197ZF&lt;#"&amp;&lt;86M982P=CZM&gt;G.M98.T!"&gt;'=G^O&gt;#"197ZF&lt;#"&amp;&lt;86M982P=C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741826</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
+	</Item>
+	<Item Name="Report Temperature.vi" Type="VI" URL="../Report Temperature.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;R!=!!?!!!Z'E:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW&lt;'FC(%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW9WRB=X-!'%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#V2F&lt;8"F=G&amp;U&gt;8*F!&amp;J!=!!?!!!Z'E:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW&lt;'FC(%:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S,GRW9WRB=X-!&amp;U:S&lt;WZU)&amp;"B&lt;G6M)%6N&gt;7RB&gt;'^S)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741826</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
 	</Item>
 	<Item Name="Stop Core.vi" Type="VI" URL="../Stop Core.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!"1!%!!!!4E"Q!"Y!!$E;2H*P&lt;H1A5'&amp;O:7QA27VV&lt;'&amp;U&lt;X)O&lt;(:M;7)=2H*P&lt;H1A5'&amp;O:7QA27VV&lt;'&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!+4G6T&gt;'6E)'^V&gt;!!!&amp;U!$!""G;7ZB&lt;#"F=H*P=C"D&lt;W2F!!"-1(!!(A!!/2J'=G^O&gt;#"197ZF&lt;#"&amp;&lt;86M982P=CZM&gt;GRJ9BR'=G^O&gt;#"197ZF&lt;#"&amp;&lt;86M982P=CZM&gt;G.M98.T!!F/:8.U:71A;7Y!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-$!!"Y!!!!!!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!*)!!!!!!1!%!!!!!!</Property>
