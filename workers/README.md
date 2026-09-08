@@ -7,7 +7,7 @@ Implements the [reference application specification](../reference_app/SPEC.md) u
 | | |
 |---|---|
 | LabVIEW version | LabVIEW 2017 |
-| Framework version | Workers for LabVIEW 5.0 |
+| Framework version | Workers 5.1 |
 | Other dependencies | None |
 | OS tested on | Windows 11 |
 
